@@ -1,0 +1,53 @@
+.student__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: cneter;
+
+    padding: 2rem 6rem;
+}
+
+.student__list-links{
+    flex:1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.student__links-logo{
+    margin-right: 2rem ;
+
+
+}
+
+
+.student__links_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2rem;
+
+}
+
+.student__links_sign{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.student__links_container p,
+.student__links_sign p,
+.student__menu_container p{
+    color:#fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.student__links_sign button,
+.student__menu_container button{
+    
+}
