@@ -1,8 +1,8 @@
 import React from 'react';
 
 
-import { Blog,Header,WhatStd_att} from './containers';
-import { CTA,Brand,Navbar} from './components';
+import {Header} from './containers';
+import { Navbar} from './components';
 import './App.css';
 
 
@@ -15,12 +15,7 @@ const App = () => {
 
       </div>
       <Header />
-      <Brand />
-      <WhatStd_att />
-
-      <CTA />
-      <Blog />
-
+      
     </div>
   )
 }
